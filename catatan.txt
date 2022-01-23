@@ -1,0 +1,39 @@
+# Package 
+    => yajra/laravel-datatables-oracle
+        => Link reference: https://yajrabox.com/docs/laravel-datatables/master
+
+        => Di gunakan untuk mengganti table bootstrap
+
+    => laravel/ui
+        => Link reference: https://laravel.com/docs/6.x/frontend
+
+        => Di gunakan untuk membuat tampilan dan style default bawaan bootstrap
+
+    => spatie/laravel-medialibrary
+
+         => Link reference: https://spatie.be/docs/laravel-medialibrary/v9/introduction
+
+        => Di gunakan untuk upload gambar
+    => select 2
+
+         => Link reference: https://select2.org/
+
+        => Di gunakan untuk select option dan select multiple di applikasi
+    
+
+#Teknology
+    => HTML CSS
+         => Link reference: https://www.w3schools.com/html/html_css.asp
+         => Bahasa pemograman basic
+
+    => PHP Framewor Laravel 8
+         => Link reference: https://laravel.com/docs/8.x
+         => Bahasa pemograman yang utama diapplikasi
+    => Jquery
+        => Link reference: https://jquery.com/
+        => Bahasa pemograman pendukung untuk fitur upload gambar dan realtime result
+    => SQlite
+        => Link Reference: https://www.sqlite.org/index.html
+        => Database yang digunakan di applikasi
+
+
