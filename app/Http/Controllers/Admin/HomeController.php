@@ -16,10 +16,9 @@ class HomeController
             'barbershop'  => Barbershop::count(),
             'stylist' => Stylist::count(),
             'jasa' => Service::count(),
+            'orders' => ServiceBooking::count(),
             'order' => ServiceBooking::where('status', '=' ,'Proses')->count()
-        ];
-       
-       
+        ];   
         $serviceBookings = ServiceBooking::where('status','=','Proses')->with(['stylist', 'services', 'barbershop'])->get();
         return view('home',compact(['serviceBookings','barber']));
     }

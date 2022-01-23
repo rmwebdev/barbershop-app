@@ -93,15 +93,22 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <div class="card-counter success">
                     <i class="fa fa-database"></i>
                     <span class="count-numbers">{{ $barber['jasa'] ?? '0'}}</span>
                     <span class="count-name">Jasa service</span>
                 </div>
             </div>
+            <div class="col-md-2">
+                <div class="card-counter success">
+                    <i class="fa fa-database"></i>
+                    <span class="count-numbers">{{ $barber['orders'] ?? '0'}}</span>
+                    <span class="count-name">Jasa service</span>
+                </div>
+            </div>
 
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <div class="card-counter info">
                     <i class="fa fa-users"></i>
                     <span class="count-numbers">{{ $barber['order'] ?? '0'}}</span>
